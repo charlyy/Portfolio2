@@ -58,7 +58,7 @@ a {
     position: relative;
     margin: 0 auto;
     padding: 0 0 20px 0;
-    height: 650px;
+    height: 900px;
 }
 
 
@@ -139,8 +139,8 @@ a {
     background-color: rgba(0,0,0,0.5);
     float: right;
     color: white;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 2em;
+    padding: 2em;
 }
 
 .bio {
@@ -148,20 +148,33 @@ a {
     color:#fff;
 }
 
+.bio h1 {
+    font-size: 8em;
+}
+
 .wdi {
-    background: #313131;
+    background: url("../imgs/santamonica.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    background-size: 150%;
 }
 
 .skills {
-    background: #1b83b3;
+    background: url("../imgs/tech_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    background-size: 150%;
 }
 
 .projects {
-    background: #5aa3c4;
+    background: url("../imgs/simple_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 155%;
 }
 
 .contact {
-    background: #bce1f1;
+    background: url("../imgs/cloud_wallpaper.png");
+    background-size: 150%;
     color: #3d3d3d;
 }
 
