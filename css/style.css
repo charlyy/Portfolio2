@@ -58,7 +58,7 @@ a {
     position: relative;
     margin: 0 auto;
     padding: 0 0 20px 0;
-    height: 700px;
+    height: 650px;
 }
 
 
@@ -104,7 +104,6 @@ a {
     font-size: 14px;
     padding: 15px 2% 0 2%;
     text-align: center;
-    
     color: #fff;
 }
 .navbar a:hover {
@@ -124,27 +123,29 @@ a {
 /* SECTIONS */
 
 
-.back_top {
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    position: fixed;
-    z-index: 50;
-    font-size: 20px;
-}
 
 .home {
     min-height: 130px;
-    background:#fff;
+    background: url("../imgs/charlywallpaper.jpg");
+    background-size: 140%;
+    background-position: 65% 19%; 
+    background-repeat: no-repeat;
     color:#3d3d3d;
     padding: 50px 0;
-    height: 300px;  
+    height: 420px;  
+}
+
+.home_container {
+    background-color: rgba(0,0,0,0.5);
+    float: right;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .bio {
     background:#184764;
     color:#fff;
-    
 }
 
 .wdi {
