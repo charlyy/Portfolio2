@@ -1,32 +1,25 @@
 
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 <head>
 <title>Charly Yoon</title>
-
-<meta name = "keywords" content = "Charly Yoon, Web Developer, Front-End, Back-End, Portfolio, WDI, General Assembly, Web Development Immersive, Junior Developer, Full-Stack Developer, Full Stack Developer" />
-<meta name = "description" content = "Charly Yoon's Web Portfolio" />
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="css/hover.css" />
+<meta name= "keywords" content = "Charly Yoon, Web Developer, Front-End, Back-End, Portfolio, WDI, General Assembly, Web Development Immersive, Junior Developer, Full-Stack Developer, Full Stack Developer" />
+<meta name= "description" content = "Charly Yoon's Web Portfolio" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/hover.css" />
 <link rel="stylesheet"  href="css/style.css" />
+<script src="js/modernizr-2.7.1.min.js"></script>
+</head>
 <body>
 <div id="loader"></div>
 <div class="container">
-	<div class="section home">
-		<div class="inner">
-			<div class="home_container bubble-left">
-			<h1>Charly Yoon</h1>
-			<h2>
-				Aspiring Full-Stack Web Developer<br /><br />
-				Currently looking for a full-time position for either<br /> 
-	            Full-Stack or Front-End
-            </h2>
-            </div>
-		</div>
-	</div>
 
-	<div class="navbar">
+<!--****** NAVBAR ******-->
+
+<div class="navbar">
 	 	<div class="inner_section">
 	 		<a href="#home" class="sink nav_link">Home</a>
 	 		<a href="#bio" class="sink nav_link">Bio</a> 
@@ -34,10 +27,32 @@
 			<a href="#skills" class="sink nav_link">Skills</a>
 			<a href="#projects" class="sink nav_link">Projects</a>
 			<a href="#contact" class="sink nav_link">Contact</a>
-			<a href="resume.html" class="sink nav_link">Resume</a>
+			<a href="resume.html" class="sink nav_link" target="_blank">Resume</a>
+			<a class="nav_link">LOGO</a>
+			
 		</div>
 	</div>
 
+<!--****** HEADER ******-->
+
+	<div class="section home row">
+		<div class="inner">
+			<div class="bubble-left home_container small-12 column">
+			<h1 class="sink">Charly Yoon</h1>
+			<h2 class="sink">
+				Aspiring Full-Stack Web Developer
+				<br />
+			</h2>
+			<h2 class="sink">	
+				Currently looking for a full-time position for either<br /> 
+	            Full-Stack or Front-End
+            </h2>
+            </div>
+		</div>
+	</div>
+
+<!--****** BIO ******-->
+	
 	<div class="section bio">
 		<div class="inner_section ">
 			<div id="bio_container">
@@ -52,6 +67,7 @@
 		</div>
 	</div>
 
+<!--****** WDI ******-->
 
 	<div class="section wdi">
 		<div class="inner_section">
@@ -62,6 +78,8 @@
 		</div>
 	</div>
 
+<!--****** SKILLS ******-->
+
 	<div class="section skills">
 		<div class="inner_section">
 			<div id="skills_container">
@@ -69,6 +87,8 @@
 			</div>
 		</div>
 	</div>
+
+<!--****** PROJECTS ******-->
 
 	<div class="section projects">
 		<div class="inner_section">
@@ -78,6 +98,8 @@
 		</div>
 	</div>
 
+<!--****** CONTACT ******-->
+
 	<div class="section contact">
 		<div class="inner_section">
 			<div id="contact_container">
@@ -86,14 +108,15 @@
 		</div>
 	</div>
 </div>
+
+
 	<script src="js/jquery.js"></script>
 	<script	src="js/jquery.smint.js"></script>
-	<script src="js/imagesloaded.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/foundation.min.js"></script>
 	        <script>
 	        $(document).foundation();
 	        </script>
-	</head>
+
 </body>
 </html>

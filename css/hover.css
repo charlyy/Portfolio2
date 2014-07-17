@@ -1697,11 +1697,11 @@
   transition-property: left;
   top: calc(50% - 10px);
   left: 0;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #e1e1e1 transparent transparent;
+  border-width: 20px 20px 20px 0;
+  border-color: transparent #46C5FA transparent transparent;
 }
 .bubble-left:hover:before, .bubble-left:focus:before, .bubble-left:active:before {
-  left: -10px;
+  left: -20px;
 }
 
 /* Bubble Float Top */

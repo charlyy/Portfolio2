@@ -3,36 +3,21 @@
 body {
     font-family: Helvetica, Arial, Verdana, sans-serif;
     color: #e5e5e5;
-    font-size: 12px;
-    background:#bfbfbf;
+    /*font-size: 12px;*/
+    background:rgba(0,0,0,1);
 }
-
 
 h1, h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    margin:0 0 15px 0;
-}
-
-
-h1 {
-    font-size: 36px;
-    letter-spacing: -1px;
     line-height: 100%;
+    margin-top: 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 }
 
 
-h2 {
-    font-size: 24px;
-}
-
-
-p {
-    margin: 0 0 15px 0;
-}
 
 a {
     color: #3e3e3e;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.5);
 }
 
 .clear {
@@ -78,9 +63,12 @@ a {
       clear: both;
 }
 
+/***     Navbar Highlight Size
+   navbar height == .nav_link height 
+                                        ***/
 
 .navbar {
-    height: 50px;
+    height: 55px;
     z-index: 1000;
     width: 100%;
     background: #0977bc;
@@ -100,7 +88,7 @@ a {
     float: left;
     margin: 0 20px 0 0;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: 15px 2% 0 2%;
     text-align: center;
     color: #fff;
@@ -128,7 +116,7 @@ a {
     min-height: 130px;
     background: url("../imgs/charlywallpaper.jpg");
     background-size: 140%;
-    background-position: 65% 19%; 
+    background-position: 85% 19%; 
     background-repeat: no-repeat;
     color:#3d3d3d;
     padding: 50px 0;
@@ -136,11 +124,16 @@ a {
 }
 
 .home_container {
+    width: 70%;
     background-color: rgba(0,0,0,0.5);
     float: right;
     color: white;
     border-radius: 2em;
     padding: 2em;
+}
+
+.home h1, h2 {
+    color: white;
 }
 
 .bio {
@@ -156,44 +149,44 @@ a {
     background: url("../imgs/santamonica.jpg");
     background-repeat: no-repeat;
     background-position: 50% 10%;
-    background-size: 150%;
+    background-size: cover;
 }
 
 .skills {
     background: url("../imgs/tech_wallpaper.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 10%;
-    background-size: 190%;
+    background-repeat: no-repeat;/*
+    background-position: 50% 10%;*/
+    background-size: cover;
 }
 
 .projects {
     background: url("../imgs/simple_wallpaper.jpg");
     background-repeat: no-repeat;
-    background-size: 190%;
+    background-size: cover;
 }
 
 .contact {
     background: url("../imgs/cloud_wallpaper.png");
-    background-size: 190%;
+    background-size: cover;
     color: #3d3d3d;
     background-repeat: no-repeat;
 }
 
 
 
-@media (max-width: 500px) {
+@media (min-widthmax-width: 500px) {
     .home {
         min-height: 130px;
         background: url("../imgs/charlywallpaper.jpg");
-        background-size: 100%;
-        background-position: 30% 0%; 
+        background-size: 140%;
+        background-position: 111% 23%; 
         background-repeat: no-repeat;
         color:#3d3d3d;
         padding: 50px 0;
         height: 420px;  
     }
 
-    .navbar {
+    /*.navbar {
         height: 2.4em;
         z-index: 1000;
         width: 100%;
@@ -210,7 +203,7 @@ a {
         padding: 10px 2% 0 2%;
         text-align: center;
         color: #fff;
-    }
+    }*/
 }
 
 
