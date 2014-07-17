@@ -1,8 +1,8 @@
 //  Remove Loading Gif Function   //
 
-setTimeout(function() {
-      $('#loader').remove();
-}, 2600);
+// setTimeout(function() {
+//       $('#loader').remove();
+// }, 2600);
 
 
 
@@ -14,7 +14,7 @@ $(document).ready( function() {
     	'scrollSpeed' : 1000
     });
 
-    $('.header_content').hide(0).delay(500).fadeIn("slow")
+    $('.header_content').hide(0).delay(1000).fadeIn("slow")
 });
 
 	

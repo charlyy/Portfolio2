@@ -15,11 +15,11 @@
 </head>
 <body>
 
-<div class="container">
-<div id="loader"></div>
+<div class="container row">
+<!-- <div id="loader"></div> -->
 <!--****** NAVBAR ******-->
 
-<div class="navbar" data-topbar>
+<div class="navbar">
 	 	<div class="inner_section">
 	 		<a href="#home" class="sink nav_link">Home</a>
 	 		<a href="#bio" class="sink nav_link">Bio</a> 
@@ -27,24 +27,24 @@
 			<a href="#skills" class="sink nav_link">Skills</a>
 			<a href="#projects" class="sink nav_link">Projects</a>
 			<a href="#contact" class="sink nav_link">Contact</a>
-			<a href="resume.html" class="sink nav_link" target="_blank">Resume</a>
 		</div>
 	</div>
 
 <!--****** HEADER ******-->
 
-	<div class="section home row">
+	<div class="section home">
 		<div class="inner">
-			<div class="bubble-left home_container small-12 column">
+			<div id="home_container" class="bubble-left small-12 columns">
 			<h1 class="sink header_content">Charly Yoon</h1>
+			<br />
 			<h2 class="sink header_content">
 				Aspiring Full-Stack Web Developer
-				<br />
 			</h2>
-			<h2 class="sink header_content">	
+			<br />
+			<h3 class="sink header_content">	
 				Currently looking for a full-time position for either<br /> 
 	            Full-Stack or Front-End
-            </h2>
+            </h3>
             </div>
 		</div>
 	</div>
@@ -52,9 +52,9 @@
 <!--****** BIO ******-->
 	
 	<div class="section bio">
-		<div class="inner_section ">
+		<div class="inner_section small-12 columns">
 			<div id="bio_container">
-				<h1>{{ Bio }}</h1>
+				<h1>{{ Bio }}</h1> <br />
 				<p>
 					I am 24 years old from Oxnard, CA. <br /> 
 	                In 2013, I graduated from UCSB with a B.A. in Cultural Anthropology. <br /> 
@@ -68,10 +68,17 @@
 <!--****** WDI ******-->
 
 	<div class="section wdi">
-		<div class="inner_section">
+		<div class="inner_section small-12 columns">
 			<div id="wdi_container">
-				<h1>General Assembly <br /> 
-				Web Development Immersive Program</h1>
+				<h1>
+					General Assembly <br /> 
+					<span id="wdi_header">Web Development Immersive</span>
+				</h1>
+				<p>
+					Starting from April 2014 to the end of June 2014, <br />  I was selected to attend General Assembly's
+	                Web Development Immersive program in Santa Monica, CA.<br /> 
+	                This 12-week program helped me acquire skills in both Front-End & Back-End development.
+				</p>
 			</div>	
 		</div>
 	</div>
@@ -79,7 +86,7 @@
 <!--****** SKILLS ******-->
 
 	<div class="section skills">
-		<div class="inner_section">
+		<div class="inner_section small-12 columns">
 			<div id="skills_container">
 				<h1>Skills</h1>
 			</div>
@@ -89,7 +96,7 @@
 <!--****** PROJECTS ******-->
 
 	<div class="section projects">
-		<div class="inner_section">
+		<div class="inner_section small-12 columns">
 			<div id="projects_container">
 				<h1>Projects</h1>
 			</div>
@@ -99,22 +106,37 @@
 <!--****** CONTACT ******-->
 
 	<div class="section contact">
-		<div class="inner_section">
+		<div class="inner_section small-12 columns">
 			<div id="contact_container">
 				<h1>Contact Me</h1>
+          <table class="contact_links">
+              <tr class="contact_rows">
+                  <th><a class="float" href="https://www.facebook.com/charlygoon" target="blank">Facebook</a></th>
+                  <th><a class="float" href="https://www.linkedin.com/profile/view?id=205740037&trk=nav_responsive_tab_profile" target="blank">LinkedIn</a></th>
+                  <th><a class="float" href="https://github.com/charlyy" target="blank">Github</a></th>
+                  <th><a class="float" href="resume.html"  target="blank">Resume</a></th>
+              </tr>
+              <tr class="contact_rows">
+                  <td><a class="float" href="https://www.facebook.com/charlygoon" target="blank"><img src="imgs/facebook.png" class="contact_imgs"/></a></td>
+                  <td><a class="float" href="https://www.linkedin.com/profile/view?id=205740037&trk=nav_responsive_tab_profile" target="blank"><img src="imgs/linkedin.png" class="contact_imgs"/></a></td>
+                  <td><a class="float" href="https://github.com/charlyy" target="blank"><img src="imgs/github.png" class="contact_imgs"/></a></td>
+                  <td><a class="float" href="resume.html" target="blank"><img src="" class="contact_imgs"/></a></td>
+              </tr>
+          </table>
+                  <br/>
+          <p><strong>Email:</strong> cyoon90@yahoo.com</p>
 			</div>
 		</div>
 	</div>
 </div>
 
-
 	<script src="js/jquery.js"></script>
 	<script	src="js/jquery.smint.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/foundation.min.js"></script>
-	        <script>
-	        $(document).foundation();
-	        </script>
+        <script>
+        $(document).foundation();
+        </script>
 
 </body>
 </html>
