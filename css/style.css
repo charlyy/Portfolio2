@@ -1,6 +1,5 @@
 * {margin: 0; padding: 0; outline: 0;}
 
-
 body {
     font-family: Helvetica, Arial, Verdana, sans-serif;
     color: #e5e5e5;
@@ -96,16 +95,17 @@ a {
 
 .nav_link {
     display: block;
-    height: 35px;
+    height: 3em;
     width: 10%;
     float: left;
-    margin: 0px 0px 0 0;
+    margin: 0 20px 0 0;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.4em;
     padding: 15px 2% 0 2%;
     text-align: center;
     color: #fff;
 }
+
 .navbar a:hover {
     background: #1783c7;
 }
@@ -163,19 +163,60 @@ a {
     background: url("../imgs/tech_wallpaper.jpg");
     background-repeat: no-repeat;
     background-position: 50% 10%;
-    background-size: 150%;
+    background-size: 190%;
 }
 
 .projects {
     background: url("../imgs/simple_wallpaper.jpg");
     background-repeat: no-repeat;
-    background-size: 155%;
+    background-size: 190%;
 }
 
 .contact {
     background: url("../imgs/cloud_wallpaper.png");
-    background-size: 150%;
+    background-size: 190%;
     color: #3d3d3d;
+    background-repeat: no-repeat;
 }
 
+
+
+@media (max-width: 500px) {
+    .home {
+        min-height: 130px;
+        background: url("../imgs/charlywallpaper.jpg");
+        background-size: 100%;
+        background-position: 30% 0%; 
+        background-repeat: no-repeat;
+        color:#3d3d3d;
+        padding: 50px 0;
+        height: 420px;  
+    }
+
+    .navbar {
+        height: 2.4em;
+        z-index: 1000;
+        width: 100%;
+        background: #0977bc;
+    }
+    .nav_link {
+        display: block;
+        height: 2.4em;
+        width: 7%;
+        float: left;
+        margin: 0 0 0 0;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 10px 2% 0 2%;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+
+#loader {
+    background: url('../imgs/loading.gif') no-repeat center center fixed;
+    background-size: contain;
+    z-index: 4000;
+}
       
