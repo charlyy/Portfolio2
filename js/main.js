@@ -14,7 +14,7 @@ $(document).ready( function() {
     	'scrollSpeed' : 1000
     });
 
-    $('.header_content').hide(0).delay(1000).fadeIn("slow")
+    $('#home_container').hide(0).delay(1600).fadeIn("slow")
 });
 
 	

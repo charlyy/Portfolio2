@@ -14,12 +14,12 @@
 <script src="js/modernizr-2.7.1.min.js"></script>
 </head>
 <body>
-
 <div class="container row">
 <!-- <div id="loader"></div> -->
+
 <!--****** NAVBAR ******-->
 
-<div class="navbar">
+	<div class="navbar">
 	 	<div class="inner_section">
 	 		<a href="#home" class="sink nav_link">Home</a>
 	 		<a href="#bio" class="sink nav_link">Bio</a> 
@@ -54,8 +54,8 @@
 	<div class="section bio">
 		<div class="inner_section small-12 columns">
 			<div id="bio_container">
-				<h1>{{ Bio }}</h1><br /><br /><br />
-				<p id="bio_content">
+				<h1 class="sink">{{ Bio }}</h1><br /><br /><br />
+				<p class="sink" id="bio_content">
 					I am 24 years old from Oxnard, CA. <br /> 
 	                In 2013, I graduated from UCSB with a B.A. in Cultural Anthropology.<br /> 
 	                After graduating, I made a decision to pursue a career in Web Development/Software Engineering.<br />
@@ -68,13 +68,13 @@
 <!--****** WDI ******-->
 
 	<div class="section wdi">
-		<div class="inner_section small-12 columns">
-			<div id="wdi_container">
+		<div class="inner_section">
+			<div class="small-12 columns" id="wdi_container">
 				<h1>
 					<span class="ga float">G</span>eneral <span class="ga float">A</span>ssembly <br /> 
 					<span id="wdi_header"><span class="ga float">W</span>eb <span class="ga float">D</span>evelopment <span class="ga float">I</span>mmersive</span>
 				</h1>
-				<p>
+				<p class="float">
 					Starting from April 2014 to the end of June 2014, I was selected to attend General Assembly's
 	                Web Development Immersive program in Santa Monica, CA.<br /> 
 	                This 12-week program helped me build a work-ready skill set in full stack web development. 
@@ -88,8 +88,8 @@
 
 	<div class="section skills">
 		<div class="inner_section">
-			<h1>Skills</h1> <br /><br /><br />
-			<div class="small-6 columns" id="skills_container">
+			<h1 id="skills_h1">My Skills</h1> <br /><br /><br />
+			<div id="skills_container" class="small-6 columns" >
 				<h2> HTML5 </h2>
 				<div class="bar" id="html_bar">
 			      	<div></div>
@@ -154,9 +154,16 @@
 <!--****** PROJECTS ******-->
 
 	<div class="section projects">
-		<div class="inner_section small-12 columns">
-			<div id="projects_container">
-				<h1>Projects</h1>
+		<div class="inner_section">
+			<div class="small-12 columns" id="projects_container">
+				<h1 id="projects_h1">My Projects</h1>
+				<ul>
+					<li class="small-12 columns project_container">Project1</li>
+					<li class="small-12 columns project_container">Project2</li>
+					<li class="small-12 columns project_container">Project3</li>
+					<li class="small-12 columns project_container">Project4</li>
+					<li class="small-12 columns project_container">Project5</li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -164,37 +171,39 @@
 <!--****** CONTACT ******-->
 
 	<div class="section contact">
-		<div class="inner_section small-12 columns">
-			<div id="contact_container">
-				<h1>Contact Me</h1>
-          <table class="contact_links">
-              <tr class="contact_rows">
-                  <th><a class="float" href="https://www.facebook.com/charlygoon" target="blank">Facebook</a></th>
-                  <th><a class="float" href="https://www.linkedin.com/profile/view?id=205740037&trk=nav_responsive_tab_profile" target="blank">LinkedIn</a></th>
-                  <th><a class="float" href="https://github.com/charlyy" target="blank">Github</a></th>
-                  <th><a class="float" href="resume.html"  target="blank">Resume</a></th>
-              </tr>
-              <tr class="contact_rows">
-                  <td><a class="float" href="https://www.facebook.com/charlygoon" target="blank"><img src="imgs/facebook.png" class="contact_imgs"/></a></td>
-                  <td><a class="float" href="https://www.linkedin.com/profile/view?id=205740037&trk=nav_responsive_tab_profile" target="blank"><img src="imgs/linkedin.png" class="contact_imgs"/></a></td>
-                  <td><a class="float" href="https://github.com/charlyy" target="blank"><img src="imgs/github.png" class="contact_imgs"/></a></td>
-                  <td><a class="float" href="resume.html" target="blank"><img src="" class="contact_imgs"/></a></td>
-              </tr>
-          </table>
-                  <br/>
-          <p><strong>Email:</strong> cyoon90@yahoo.com</p>
+		<div class="inner_section">
+			<div class="small-12 columns" id="contact_container">
+				<h1 id="contact_h1" class="grow">Contact Me</h1>
+	            <table class="contact_links">
+	                <tr class="contact_rows">
+	              		<th><a class="float" href="resume.html" target="blank">Resume</a></th>
+	                    <th><a class="float" href="https://www.facebook.com/charlygoon" target="blank">Facebook</a></th>
+	                    <th><a class="float" href="https://www.linkedin.com/profile/view?id=205740037&trk=nav_responsive_tab_profile" target="blank">LinkedIn</a></th>
+	                    <th><a class="float" href="https://github.com/charlyy" target="blank">Github</a></th>
+	                    <th><a class="float" href="https://instagram.com/charlygoon" target="blank">Instagram</a></th>
+	                    <th><a class="float" href="https://twitter.com/CharlyGoon"  target="blank">Twitter</a></th>
+	                </tr>
+	                <tr class="contact_rows">
+		              	<td><a class="float" href="resume.html" target="blank"><img src="imgs/doc.png" class="contact_imgs"/></a></td>
+		                <td><a class="float" href="https://www.facebook.com/charlygoon" target="blank"><img src="imgs/facebook.png" class="contact_imgs"/></a></td>
+		                <td><a class="float" href="https://www.linkedin.com/profile/view?id=205740037&trk=nav_responsive_tab_profile" target="blank"><img src="imgs/linkedin.png" class="contact_imgs"/></a></td>
+		                <td><a class="float" href="https://github.com/charlyy" target="blank"><img src="imgs/github.png" class="contact_imgs"/></a></td>
+		                <td><a class="float" href="https://instagram.com/charlygoon"  target="blank"><img src="imgs/instagram.png" class="contact_imgs" /></td>
+		                <td><a class="float" href="https://twitter.com/CharlyGoon" target="blank"><img src="imgs/twitter.png" class="contact_imgs"/></a></td>
+	                </tr>
+	            </table>
+            	<br/>
+		        <h1 id="email"><strong>Email:</strong> cyoon90@yahoo.com </h1>
 			</div>
 		</div>
 	</div>
 </div>
-
-	<script src="js/jquery.js"></script>
-	<script	src="js/jquery.smint.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/foundation.min.js"></script>
-        <script>
-        $(document).foundation();
-        </script>
-
+<script src="js/jquery.js"></script>
+<script	src="js/jquery.smint.js"></script>
+<script src="js/main.js"></script>
+<script src="js/foundation.min.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
 </body>
 </html>
