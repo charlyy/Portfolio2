@@ -340,7 +340,7 @@ a {
 /****** PROJECTS SECTION ******/
 
 .projects {
-    height: 1132px;
+    height: 1180px;
     background: url("../imgs/simple_wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,7 +360,8 @@ a {
 }
 
 .project1_image {
-    background-color: blue;
+    background: url("../imgs/plandora_img.jpg");
+    background-size: cover;
 }
 
 .project1_content{
@@ -368,7 +369,8 @@ a {
 }
 
 .project2_image {
-    background-color: blue;
+    background: url("../imgs/parkpicker_img.jpg");
+    background-size: cover;
 }
 
 .project2_content{
@@ -376,7 +378,8 @@ a {
 }
 
 .project3_image {
-    background-color: blue;
+    background: url("../imgs/showerthoughts_img.jpg");
+    background-size: cover;
 }
 
 .project3_content{
@@ -384,7 +387,8 @@ a {
 }
 
 .project4_image {
-    background-color: blue;
+    background: url("../imgs/ttt_img.jpg");
+    background-size: cover;
 }
 
 .project4_content{
@@ -392,7 +396,8 @@ a {
 }
 
 .project5_image {
-    background-color: blue;
+    background: url("../imgs/rps_img.jpg");
+    background-size: cover;
 }
 
 .project5_content{
@@ -416,7 +421,7 @@ a {
 }
 
 #contact_h1 {
-    margin-top: 60px;
+    margin-top: 35px;
     color: white;
     font-size: 4em;
 }
@@ -432,8 +437,9 @@ a {
 }
 
 .contact_rows a {
-    font-size: 1.5em;
-    color: white;
+    font-size: 1.7em;
+    color: rgba(220,220,250,1);
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
 }
 
 #email {

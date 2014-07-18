@@ -11,7 +11,7 @@ $(document).ready( function() {
 // Navigation  Scrolling Speed   //
     
     $('.navbar').smint({
-    	'scrollSpeed' : 1000
+    	'scrollSpeed' : 2500
     });
 
     $('#home_container').hide(0).delay(1600).fadeIn("slow")
