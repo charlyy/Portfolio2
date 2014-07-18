@@ -7,10 +7,13 @@ body {
     background:rgba(0,0,0,0);
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p{
     line-height: 100%;
     margin-top: 0;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+h1, h2, h3 { 
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 }
 
 a {
@@ -61,7 +64,7 @@ a {
 
 /****** LOADER GIF ******/
 
-#loader {
+/*#loader {
     position: fixed;
     left: 0px;
     top: 0px;
@@ -69,7 +72,7 @@ a {
     height: 100%;
     z-index: 9999;
     background: url('../imgs/loading.gif') 50% 50% no-repeat rgb(249,249,249);
-}
+}*/
 
 /******    Navbar Highlight Size
    navbar height == .nav_link height  *******/
@@ -346,6 +349,14 @@ a {
     background-size: cover;
 }
 
+.projects h3 {
+  color: black;
+}
+
+.projects p {
+  color: black;
+}
+
 #projects_h1 {
     padding: 40px;
     text-align: center;
@@ -356,7 +367,6 @@ a {
 .all_projects {
     height: 200px;
     width: 50%;
-    border: 1px solid black;
 }
 
 .project1_image {
@@ -364,8 +374,8 @@ a {
     background-size: cover;
 }
 
-.project1_content{
-
+.project1_content {
+  color: black;
 }
 
 .project2_image {
