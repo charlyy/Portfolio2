@@ -14,7 +14,7 @@
 <script src="js/modernizr-2.7.1.min.js"></script>
 </head>
 <body>
-<div class="container row">
+<div class="container">
 <!-- <div id="loader"></div> -->
 
 <!--****** NAVBAR ******-->
@@ -33,7 +33,7 @@
 <!--****** HEADER ******-->
 
 	<div class="section home">
-		<div class="inner">
+		<div class="inner row">
 			<div id="home_container" class="bubble-left small-12 columns">
 			<h1 class="sink header_content">Charly Yoon</h1>
 			<br />
@@ -51,7 +51,7 @@
 
 <!--****** BIO ******-->
 	
-	<div class="section bio">
+	<div class="section bio row">
 		<div class="inner_section small-12 columns">
 			<div id="bio_container">
 				<h1 class="sink">{{ Bio }}</h1><br /><br /><br />
@@ -68,7 +68,7 @@
 <!--****** WDI ******-->
 
 	<div class="section wdi">
-		<div class="inner_section">
+		<div class="inner_section row">
 			<div class="small-12 columns" id="wdi_container">
 				<h1>
 					<span class="ga float">G</span>eneral <span class="ga float">A</span>ssembly <br /> 
@@ -87,7 +87,7 @@
 <!--****** SKILLS ******-->
 
 	<div class="section skills">
-		<div class="inner_section">
+		<div class="inner_section row">
 			<h1 id="skills_h1">My Skills</h1> <br /><br /><br />
 			<div id="skills_container" class="small-6 columns" >
 				<h2> HTML5 </h2>
@@ -151,19 +151,25 @@
 			</div>
 		</div>
 	</div>
+	
 <!--****** PROJECTS ******-->
 
 	<div class="section projects">
-		<div class="inner_section">
-			<div class="small-12 columns" id="projects_container">
+		<div class="inner_section row">
+			<div id="projects_container">
 				<h1 id="projects_h1">My Projects</h1>
-				<ul>
-					<li class="small-12 columns project_container">Project1</li>
-					<li class="small-12 columns project_container">Project2</li>
-					<li class="small-12 columns project_container">Project3</li>
-					<li class="small-12 columns project_container">Project4</li>
-					<li class="small-12 columns project_container">Project5</li>
-				</ul>
+					<div class="small-6 columns all_projects project1_image">Project1</div>
+					<div class="small-6 columns all_projects project1_content">Project1</div>
+					<div class="small-6 columns all_projects project2_image">Project2</div>
+					<div class="small-6 columns all_projects project2_content">Project2</div>
+					<div class="small-6 columns all_projects project3_image">Project3</div>
+					<div class="small-6 columns all_projects project3_content">Project3</div>
+					<div class="small-6 columns all_projects project4_image">Project4</div>
+					<div class="small-6 columns all_projects project4_content">Project4</div>
+					<div class="small-6 columns all_projects project5_image">Project5</div>
+					<div class="small-6 columns all_projects project5_content">Project5</div>
+					<div class="small-6 columns all_projects project6_image">Project6</div>
+					<div class="small-6 columns all_projects project6_content">Project6</div>
 			</div>
 		</div>
 	</div>
@@ -171,7 +177,7 @@
 <!--****** CONTACT ******-->
 
 	<div class="section contact">
-		<div class="inner_section">
+		<div class="inner_section row">
 			<div class="small-12 columns" id="contact_container">
 				<h1 id="contact_h1" class="grow">Contact Me</h1>
 	            <table class="contact_links">

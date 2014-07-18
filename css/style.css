@@ -229,11 +229,11 @@ a {
 }
 
 .bar {
-    background-color: black;
-  border-radius: 10px; /* (height of inner div) / 2 + padding */
-  padding: 3px;
-  width: 80%;
-  margin: 0 auto;
+    background-color: rgba(180,200,250,.75);
+    border-radius: 30px; /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #html_bar > div {
@@ -346,22 +346,60 @@ a {
     background-size: cover;
 }
 
-#projects_container ul {
-    list-style-type: none;
-}
-
-.project_container {
-   height: 200px;
-   width: 100%;
-   border: 1px solid black;
-}
-
 #projects_h1 {
     padding: 40px;
     text-align: center;
     color: black;
     font-weight: bold;
 }
+
+.all_projects {
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.project1_image {
+    background-color: blue;
+}
+
+.project1_content{
+
+}
+
+.project2_image {
+    background-color: blue;
+}
+
+.project2_content{
+
+}
+
+.project3_image {
+    background-color: blue;
+}
+
+.project3_content{
+
+}
+
+.project4_image {
+    background-color: blue;
+}
+
+.project4_content{
+
+}
+
+.project5_image {
+    background-color: blue;
+}
+
+.project5_content{
+
+}
+
+
 
 /****** CONTACT SECTION ******/
 
