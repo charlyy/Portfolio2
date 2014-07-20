@@ -5,6 +5,7 @@ body {
     font-family: Helvetica, Arial, Verdana, sans-serif;
     color: #e5e5e5;
     background:rgba(0,0,0,0);
+    margin-top: -20px;
 }
 
 h1, h2, h3, p{
@@ -27,8 +28,6 @@ a {
 
 .container {
     width: 100%;
-    max-width: 1600px;
-    min-width: 960px;
     z-index: 10;
     position: relative;
     margin: 0 auto;
@@ -37,16 +36,13 @@ a {
 
 .section {
     width: 100%;
-    max-width: 1600px;
-    min-width: 960px;
-    z-index: 10;
     position: relative;
     margin: 0 auto;
     padding: 0 0 20px 0;
 }
 
 .inner {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     min-height: 50px;
@@ -79,7 +75,7 @@ a {
 
 .navbar {
     height: 55px;
-    z-index: 1000;
+    z-index: 5000;
     width: 100%;
     background: #0977bc;
 }
@@ -125,8 +121,8 @@ a {
 .home {
     height: 800px; 
     background: url("../imgs/charlywallpaper.jpg");
-    background-size: 140%;
-    background-position: 85% 19%; 
+    background-size: cover;
+    /*background-position: 85% 19%; */
     background-repeat: no-repeat;
     color:#3d3d3d;
     padding: 50px 0;
@@ -138,6 +134,7 @@ a {
     color: white;
     border-radius: 2em;
     padding: 2.6em 1em;
+    margin-right: 4%;
 }
 
 .home h1, h2, h3 {
@@ -148,6 +145,9 @@ a {
     font-size: 50px;
 }
 
+.header_content {
+  font-family: 'Quicksand', sans-serif;
+}
 
 /****** BIO SECTION ******/
 
@@ -161,7 +161,7 @@ a {
 #bio_container {
     border-radius: 20px;
     text-align: center;
-    width: 58%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 50px;
     padding: 20px;
@@ -219,15 +219,14 @@ a {
     background-size: cover;
 }
 
-#skills_container, #tech_container {
-    text-align: center;
-}
-
-
 #skills_h1 {
     padding-top: 35px;
     color: white;
     font-size: 3em;
+    text-align: center;
+}
+
+#skills_container, #tech_container {
     text-align: center;
 }
 
@@ -330,7 +329,7 @@ a {
    border-radius: 10px;
 }
 
-#ad_bar > div {
+#add_bar > div {
    background-color: lightblue;
    width: 90%; /* Adjust with JavaScript */
    height: 2em;
@@ -477,7 +476,11 @@ a {
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 480px) {
+    .home {
+        background-position: 45% 20%;
+        height: auto; 
+    }
 
 }
 
