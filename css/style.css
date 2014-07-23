@@ -117,7 +117,7 @@ a {
 /****** HOME SECTION ******/
 
 .home {
-    height: 800px; 
+    height: 900px; 
     background: url("../imgs/charlyyoon_wallpaper.jpg");
     background-size: cover;
     /*background-position: 85% 19%; */
@@ -150,7 +150,7 @@ a {
     background: url("../imgs/cloud_wallpaper.png");
     background-size: cover;
     color:#fff;
-    height: 750px;
+    height: 800px;
 }
 
 #bio_container {
@@ -172,7 +172,7 @@ a {
 /****** WDI SECTION ******/
 
 .wdi {
-    height: 800px;
+    height: 900px;
     background: url("../imgs/santamonica.jpg");
     background-repeat: no-repeat;
     background-position: 50% 10%;
@@ -209,7 +209,7 @@ a {
 /****** SKILLS SECTION ******/
 
 .skills {
-    height: 800px;
+    height: 900px;
     background: url("../imgs/tech_wallpaper.jpg");
     background-repeat: no-repeat;/*
     background-position: 50% 10%;*/
@@ -340,7 +340,7 @@ a {
 /****** PROJECTS SECTION ******/
 
 .projects {
-    height: 1180px;
+    height: 1480px;
     background: url("../imgs/simple_wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,51 +366,42 @@ a {
     width: 50%;
 }
 
-.project1_image {
-    background: url("../imgs/plandora_img.jpg");
-    background-size: cover;
+.project1_content, .project2_content, .project3_content, .project4_content, .project5_content, .project6_content{
+  color: black;
+  overflow-y: scroll;
 }
 
-.project1_content {
-  color: black;
+.project1_image, .project2_image, .project3_image, .project4_image, .project5_image, .project6_image {
+  background-size: cover;
+}
+
+.project1_image {
+    background: url("../imgs/plandora_img.jpg");
+    background-position: 50% 2%;
 }
 
 .project2_image {
     background: url("../imgs/parkpicker_img.jpg");
-    background-size: cover;
-}
-
-.project2_content{
-
 }
 
 .project3_image {
     background: url("../imgs/showerthoughts_img.jpg");
-    background-size: cover;
-}
-
-.project3_content{
-
+    background-position: 35% 0%;
 }
 
 .project4_image {
     background: url("../imgs/ttt_img.jpg");
-    background-size: cover;
-}
-
-.project4_content{
-
+    background-position: 44% 4%;
 }
 
 .project5_image {
     background: url("../imgs/rps_img.jpg");
-    background-size: cover;
+    background-position: 44% 0%;
 }
 
-.project5_content{
-
+.project6_image {
+  background: url("../imgs/wesource.png");
 }
-
 
 
 /****** CONTACT SECTION ******/
@@ -454,6 +445,8 @@ a {
     border: 0px;
     margin: 0 auto;
 }
+
+
 
 /****** MEDIA QUERIES ******/
 
