@@ -461,8 +461,17 @@ a {
         background-position: 45% 20%;
         height: auto; 
     }
-    #home_container {
-      margin-right: 10%;
+    .navbar {
+        height: 29px;
+    }
+    .nav_link {
+        font-size: .6em;
+        margin: 0 0.4em 0 0;
+        width: 15%;
+        padding: 10px 1% 0 1%;
+    }
+    .contact { 
+        background-position: 53%;
     }
 
 }
