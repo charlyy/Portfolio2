@@ -206,6 +206,10 @@ a {
     font-size: 1.7em;
 }
 
+#immersive_header {
+  margin-left: 20px;
+}
+
 /****** SKILLS SECTION ******/
 
 .skills {
@@ -364,6 +368,7 @@ a {
 .all_projects {
     height: 200px;
     width: 50%;
+    border: 1px solid black;
 }
 
 .project1_content, .project2_content, .project3_content, .project4_content, .project5_content, .project6_content{
@@ -461,6 +466,9 @@ a {
         background-position: 45% 20%;
         height: auto; 
     }
+    #home_container {
+      width: 75%;
+    }
     .navbar {
         height: 29px;
     }
@@ -473,7 +481,26 @@ a {
     .contact { 
         background-position: 53%;
     }
-
+    #bio_container {
+      width: 100%;
+    }
+    #bio_container p {
+      font-size: 1.2em;
+    }
+    #wdi_container h1 {
+      font-size: 1.5em;
+    }
+    #wdi_container p {
+      width: 90%;
+      font-size: 1.2em;
+    }
+    #email {
+      font-size: 1.3em;
+      padding-bottom: 45px;
+    }
+    .skills h2 {
+      font-size: 1.28em;
+    }
 }
 
 /* Small Devices, Tablets */
